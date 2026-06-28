@@ -7,7 +7,7 @@ import schemas
 from database import engine, get_db
 
 # Create database tables automatically on startup if they don't exist
-models.Base.metadata.create_all(bind=engine)
+#models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="FastAPI Robust CRUD")
 
